@@ -1,0 +1,5 @@
+print "how many people are having pizza?"
+input num_people
+num_pizza = roundup((num_people * 2) / 12)
+total_price = num_pizza * 18.75
+print "you need to order", num_pizza, "pizzas, costing $", total_price

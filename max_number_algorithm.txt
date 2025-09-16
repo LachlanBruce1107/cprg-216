@@ -1,0 +1,15 @@
+The problem is if you are given three numbers,
+determine which one is the largest.
+
+(a, b, c)
+
+as an example (3, 2, 8)
+
+Algorithm:
+--------------------------
+- Read a, b, c   #(2, 3, 1)
+- if b > a
+    a = b
+- if c > a
+    a = c
+- display a

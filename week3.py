@@ -25,9 +25,9 @@ print(f, type(f))
 print(msg, type(msg))
 print(condition, type(condition))
 
+
 #a function call has a name, and ()
 
-input()
 
 def printWelcome():
         print("hello")
@@ -42,3 +42,44 @@ y=4
 z=x+y
 
 print("Type of z is ", type(z))
+
+#operators
+
+# + - / *
+x = 3+4
+y = 3 * 4
+z = 3/4
+
+#the remainder %
+
+v = 4%3 # 1
+x = 5//3 #1 floor division, rounds to lower
+y = 2**3 #power, 2*2*2
+
+print(v, x, y)
+
+# augmented operators
+
+x = x + 3 # 4
+print(x)
+#a shorthand for that
+x += 3 #this is equivalent to x = x+3
+y *= 2
+print(x)
+print(y)
+y /= 8
+print(y)
+
+#when we try to write something that is large
+#we go to the next line
+
+'''
+Now I can use this kind of commenting
+to comment several lines
+it is good for documentation
+'''
+
+#print function in detail
+
+print("hello", "world", "Hey")
+print("hello", x+y )

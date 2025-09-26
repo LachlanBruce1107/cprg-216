@@ -42,3 +42,18 @@ print((b**2 - 4 * a * c) >= 0)
 
 if is_adult:
     print("Yes, is adult") #this line will be ignored if condition is false
+
+#conditions
+
+is_adult = True
+
+#Three forms of if statements
+#first if statement form
+
+#if condition:
+#one or more indented statements
+
+if is_adult:
+    print("Yes, is adult") #this line will be ignored if condition is false
+print("This line is not indented")
+
